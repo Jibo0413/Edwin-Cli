@@ -1,11 +1,10 @@
 {
   "name": "edwin-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "edwin 脚手架工具",
   "homepage": "https://github.com/Jibo0413/Edwin-Cli",
   "bin": {
-    "edw": "commands/index.js",
-    "edwin-cli": "commands/index.js"
+    "edwin": "commands/index.js"
   },
   "author": {
     "name": "Gilbert.JI",
@@ -36,8 +35,12 @@
     "npm": ">= 4.0.0"
   },
   "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^5.1.0",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.1.0",
+    "mkdirp": "^1.0.4",
     "yeoman-generator": "^2.0.1",
-    "chalk": "^2.1.0",
     "yosay": "^2.0.1"
   },
   "jest": {
